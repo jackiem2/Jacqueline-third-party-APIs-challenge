@@ -15,10 +15,29 @@ function timeBlock() {
         } else {
             $(this).addClass("past");
         }
-    })
+    });
 }
 
+// Save Button
+var saveBtn = $(".saveBtn");
 
+saveBtn.on("click", function(){
+    var time = $(this).addClass(".hour").text();
+    var plan = $(this).addClass(".plan").val();
 
+    localStorage.setItem(time, plan);
+});
+
+function usePlan() {
+    $(".hour").each(function() {
+        var currentHour = $(this).text();
+        var currentPlan = localStorage.getItem(currentHour);
+
+        if (currentPlan !== null) {
+            $(this).addClass(".plan").val(currentPlan);
+        }
+    });
+}
 
 timeBlock();
+usePlan();
