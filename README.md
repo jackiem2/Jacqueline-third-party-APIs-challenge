@@ -18,3 +18,5 @@ WHEN I click the save button for that time block
 THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
+
+![screenshot](https://user-images.githubusercontent.com/93564695/149670821-96ee68e6-804a-49ca-9b75-924490914a7b.png)
