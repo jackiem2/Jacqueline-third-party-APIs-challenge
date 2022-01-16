@@ -19,5 +19,9 @@ THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
 
+<<<<<<< HEAD
 
 
+=======
+![screenshot](https://user-images.githubusercontent.com/93564695/149670821-96ee68e6-804a-49ca-9b75-924490914a7b.png)
+>>>>>>> f64bbc6bdafe224826c983385ae68fb95d7eb02c
