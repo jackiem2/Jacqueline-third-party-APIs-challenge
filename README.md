@@ -21,3 +21,5 @@ THEN the saved events persist
 
 ![screenshot](https://user-images.githubusercontent.com/93564695/149670821-96ee68e6-804a-49ca-9b75-924490914a7b.png)
 
+Deployed URL :
+https://jackiem2.github.io/Jacqueline-third-party-APIs-challenge/
